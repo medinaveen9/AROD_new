@@ -48,16 +48,10 @@ Ensure you have the following installed:
 ### API Endpoints:
 - Users:
    - GET / - Retrieve all users
-      ![All Users](client/src/assets/users.png)
-
-   - POST /createUser - Create a new user
-      ![New user](client/src/assets/new_user.png)
+      ![All Users](client/src/assets/Users_new.png)
 
    - PUT /updateUser/:id - Update a user
-      ![Update user](client/src/assets/update_user.png)
+      ![Update user](client/src/assets/Update_new.png)
 
-   - DELETE /deleteUser/:id - Delete a user
-      ![Delete user](client/src/assets/delete_user.png)
-   
    - Mongo db Snapshot
-      ![Mongo users snapshot](client/src/assets/Mongo.png)
+      ![Mongo users snapshot](client/src/assets/Mongo_new.png)

@@ -2,13 +2,14 @@
 
 ## Overview
 AROD is a web application built using React.js (initialized with Vite) for the frontend and Node.js with Express for the backend. It is designed to manage various operations efficiently, leveraging modern web development best practices.
+User details like name, email, age is stored in Postgresql DB and uploaded image refrence is stored in MongoDB.
 
 ## Features
 - CRUD operations for managing users
 - RESTful API integration with React.js frontend
 - State management using React Hooks
 - Secure API calls with Axios
-- Database management using MongoDB Atlas
+- Database management using MongoDB Atlas and Postgresql
 
 ## Technologies Used
 ### Frontend:
@@ -18,19 +19,21 @@ AROD is a web application built using React.js (initialized with Vite) for the f
 
 ### Backend:
 - Node.js with Express
-- MongoDB Atlas for database management
+- MongoDB Atlas
+- Postgresql 
 
 ## Installation
 ### Prerequisites:
 Ensure you have the following installed:
 - Node.js & npm
 - Git
+- Postgresql
 
 ### Setup Steps:
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/medinaveen9/AROD.git
-   cd AROD
+   git clone https://github.com/medinaveen9/AROD_new.git
+   cd AROD_new
 2. **Backend Setup:**
    ```bash
    cd server
@@ -43,7 +46,8 @@ Ensure you have the following installed:
    npm run dev
 4. **Access the Application:**
    - Frontend: http://localhost:5173
-   - Backend API: http://localhost:3001
+   - Mongo API: http://localhost:3001
+   - Postgresql API: http://localhost:5000
 
 ### API Endpoints:
 - Users:
@@ -54,4 +58,7 @@ Ensure you have the following installed:
       ![Update user](client/src/assets/Update_new.png)
 
    - Mongo db Snapshot
-      ![Mongo users snapshot](client/src/assets/Mongo_new.png)
+      ![Mongo Image ref snapshot](client/src/assets/Mongo_new.png)
+
+   - Postgresql db Snapshot
+      ![Postgresql users snapshot](client/src/assets/Postgresql.png)
